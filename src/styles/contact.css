@@ -1,0 +1,79 @@
+body{
+    color: white;
+}
+.contact-all{
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.contact-det{
+    padding-left: 150px;
+}
+.contact-det2{
+    height: 80px;
+    display: flex;
+    justify-content:left;
+    column-gap: 60px;
+   
+}
+.contact-ne{
+    height: 40px;
+    width: 250px;
+    border: none;
+    border-radius: 20px;
+    background-color:#f9f5f526;
+    text-indent: 15px;
+}
+.form-con{
+    padding-right: 150px;
+}
+.note{
+    text-indent: 5px;
+    padding: 12px 20px;
+    height: 350px;
+    width: 650px;
+    border: none;
+    border-radius: 20px;
+    background-color: #f9f5f526;
+    color: white;
+    box-sizing: border-box;
+}
+.button-sec{
+    padding-top: 20px;
+}
+.button{
+    border-radius: 20px;
+    height: 40px;
+    width: 150px;
+    font-size: 16px;
+   background-color: rgb(199, 190, 12);
+   font-weight: bold;
+}
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+.button:hover span {
+    padding-right: 25px;
+  }
+  
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+.contact-p{
+    color: rgba(255, 255, 255, 0.496);
+    line-height: 30px;
+}

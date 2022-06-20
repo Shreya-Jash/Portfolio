@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color:white;
+   /* background-image:url("pink-paper-background-texture.jpg") ;*/
+
+}
+nav{
+    max-width: 100%;
+    height: auto;
+    border-radius: 0px 25px 0px 25px;
+    font-style: bold;
+    font-family: "Poppins", sans-serif;
+    border: 1px solid rgb(199, 190, 12);
+    overflow: hidden;
+}
+nav a{
+    float: left;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 20px;
+    text-decoration: none;
+}
+nav a:last-child{
+    border-right: none;
+    float: right;
+
+}
+.active{
+    color: rgb(199, 190, 12);
+}
+nav a:hover{
+    background-color: rgb(172, 189, 19);
+    color: rgb(0, 10, 7);
+    font-style: italic;
+}
+.main-text{
+    
+    padding-left: 50px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 600px;
+}
+.main--text{
+    padding-top: 180px;
+}
+.main-h1{
+    font-size: 60px;
+    background: -webkit-linear-gradient(rgb(191, 202, 114), rgb(121, 108, 4));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.main-para{
+    font-size: 20px;
+    line-height: 2;
+}
+.myPic-sec{
+    padding-top: 40px;
+    padding-right: 140px;
+}
+.myPic{
+    border-collapse: separate;
+    border-radius: 10px;
+   
+   
+  max-width: 100%;
+  height:600px;
+  
+}

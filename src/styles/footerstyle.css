@@ -1,0 +1,24 @@
+footer{
+    padding-top: 200px;
+}
+.footer-div{
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    height: auto;
+    border-radius: 25px 25px 0px 0px;
+    font-style: bold;
+    font-family: "Poppins", sans-serif;
+    border: 1px solid rgb(199, 190, 12);
+    color: rgba(255, 255, 255, 0.496);
+    font-style: italic;
+}
+.foot-text{
+    padding-left: 20px;
+}
+.links{
+    padding-right: 20px;
+}
+.a2{
+    text-decoration: none;
+}

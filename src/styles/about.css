@@ -1,0 +1,44 @@
+.about-h1{
+    padding-left: 50px;
+}
+.about-para{
+    padding-left: 60px;
+    color: rgba(255, 255, 255, 0.496);
+    align-items: center;
+}
+.quote{
+    color: rgba(255, 255, 0, 0.338);
+}.education{
+    display: flex;
+    padding-top: 50px;
+   padding-bottom: 50px;
+    justify-content: space-around;
+   
+
+    
+}
+.skill{
+    padding-left: 50px;
+}
+.skill2{
+    padding-left: 60px;
+    color:rgba(255, 255, 255, 0.496) ;
+}
+.language-icon{
+    height: 40px;
+}
+.graphics-icon{
+    height: 40px;
+}
+.frontend-icons{
+    display: flex;
+}
+.frontend-icon{
+    height: 40PX;
+}
+li{
+    line-height: 30px;
+}
+a{
+    color: rgba(255, 255, 255, 0.496);
+}
