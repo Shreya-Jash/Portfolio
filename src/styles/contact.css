@@ -1,7 +1,9 @@
 body{
     color: white;
+    overflow: hidden;
 }
 .contact-all{
+    max-width: 100%;
     padding-top: 100px;
     display: flex;
     justify-content: space-between;
@@ -23,6 +25,7 @@ body{
     border-radius: 20px;
     background-color:#f9f5f526;
     text-indent: 15px;
+    color: white;
 }
 .form-con{
     padding-right: 150px;
