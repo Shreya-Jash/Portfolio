@@ -36,6 +36,12 @@
 .frontend-icon{
     height: 40PX;
 }
+.other-icon{
+    display: flex;
+}
+.othericon{
+    height: 40px;
+}
 li{
     line-height: 30px;
 }

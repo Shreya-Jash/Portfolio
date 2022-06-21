@@ -10,6 +10,8 @@ export default function Contact(){
                 </h1>
                 <p className="contact-p">I would love to hear from you...😊<br />
                 Email - <a href="shreyajash2001@gmail.com">shreyajash2001@gmail.com</a>
+                <i class="devicon-canva-original colored"></i>
+          
                 </p>
             </div>
             <form className="form-con">

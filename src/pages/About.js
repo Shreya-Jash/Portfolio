@@ -10,14 +10,6 @@ import cpp from "../images/icons_language/cpp.png"
 import python from "../images/icons_language/python.png"
 import java from "../images/icons_language/java.png"
 
-
-
-import html from "../images/icons_frontend/html.png"
-import css from "../images/icons_frontend/css.png"
-import js from "../images/icons_frontend/js.png"
-import react from "../images/icons_frontend/react.png"
-
-
 import canva from "../images/icons_graphics/canva.png"
 import figma from "../images/icons_graphics/figma.png"
 import photoshop from "../images/icons_graphics/photoshop.png"
@@ -73,14 +65,30 @@ export default function About(){
                 </p>
                 <h3>Frontend Development-</h3>
                 <p className="frontend-icons">
-                    <img src={html} className="frontend-icon"/>
-                    <img src={css} className="frontend-icon"/>
-                    <img src={js} className="frontend-icon"/>
-                    <img src={react} className="frontend-icon"/>
+                    
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" className="frontend-icon"/>
+          
+                            
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" className="frontend-icon"/>
+          
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" className="frontend-icon"/>
+          
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" 
+                        className="frontend-icon"/>
+          
                 </p>
                 <h3>Others-</h3>
-                
-            <i class="devicon-html5-plain"></i>
+                <p className="other-icon">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original-wordmark.svg" className="othericon" />
+                    
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original-wordmark.svg" className="othericon" />
+
+                    
+                    <i class="devicon-github-original" className="othericon"></i>
+          
+          
+          
+                </p>
             </section>
                 
             </div>
