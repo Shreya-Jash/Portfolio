@@ -28,8 +28,9 @@ export default function About(){
                     Now, I am Graphics Designer and a Frontend Developer as well.<br />
                     I use HTML,CSS and JavaScript for my Development.I use React JS as a Framework.
                 </p>
-            <div className="education" >
-                
+            <div className="educations" >
+                <h1>Education-</h1>
+                <div className="education">
                 <div>
                 <h2>Schooling-</h2>
                     <ul>
@@ -44,6 +45,8 @@ export default function About(){
                         <li><a href="https://uem.edu.in/uem-kolkata/"  target="_blank">University Of Engineering And Management, Kolkata. (2020-2024)</a></li>
                     </ul>
                 </div>   
+                </div>
+                
                 
             </div>
             <div className="skill">

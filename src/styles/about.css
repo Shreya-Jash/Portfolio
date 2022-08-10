@@ -8,9 +8,13 @@
 }
 .quote{
     color: rgba(255, 255, 0, 0.338);
-}.education{
+}
+.educations{
+    padding-top: 30px;
+    padding-left: 50px;
+}
+.education{
     display: flex;
-    padding-top: 50px;
    padding-bottom: 50px;
     justify-content: space-around;
    

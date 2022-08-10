@@ -11,18 +11,17 @@ export default function Contact(){
                 <p className="contact-p">I would love to hear from you...😊<br />
                 Email - <a href="shreyajash2001@gmail.com">shreyajash2001@gmail.com</a>
                 <i class="devicon-canva-original colored"></i>
-          
                 </p>
             </div>
             <form className="form-con">
                 <section className="contact-det2">
                     <input 
-                            type="text" 
+                            type="name" 
                             placeholder="Name"
                             className="contact-ne"
                     />
                     <input 
-                        type="text" 
+                        type="email" 
                         placeholder="Your Email"
                         className="contact-ne"
                     />
