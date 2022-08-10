@@ -79,3 +79,29 @@ body{
     color: rgba(255, 255, 255, 0.496);
     line-height: 30px;
 }
+
+
+@media screen and (max-width:780px) {
+    .contact-all{
+        padding-top: 10px;
+        display: block;
+        overflow-y: hidden;
+    }
+    .contact-det{
+        padding-left: 20px;
+    }
+    .form-con{
+       
+    }
+    .contact-det2{
+        column-gap: 3px;
+       
+    }
+    .contact-ne{
+        width: 160px;
+    }
+    .note{
+        height: 170px;
+        width: 330px;
+    }
+}

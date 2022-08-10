@@ -5,7 +5,8 @@ import { motion } from "framer-motion";
 
 import "./styles/about.css"
 import "./styles/contact.css"
-import "./styles/footerstyle.css"
+import "./components/footer.css"
+import "./components/navbar.css"
 
 import NavBar from "./components/Navbar";
 import Footer from "./components/Footer";

@@ -42,40 +42,6 @@ nav a:hover{
     color: rgb(0, 10, 7);
     font-style: italic;
 }
-.main-text{
-    
-    padding-left: 50px;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    height: 600px;
-}
-.main--text{
-    padding-top: 180px;
-}
-.main-h1{
-    font-size: 60px;
-    background: -webkit-linear-gradient(rgb(191, 202, 114), rgb(121, 108, 4));
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-.main-para{
-    font-size: 20px;
-    line-height: 2;
-}
-.myPic-sec{
-    padding-top: 40px;
-    padding-right: 140px;
-}
-.myPic{
-    border-collapse: separate;
-    border-radius: 10px;
-   
-   
-  max-width: 100%;
-  height:600px;
-  
-}
 
 .mobile-responsive{
     display: none;
@@ -90,6 +56,8 @@ nav a:hover{
         position: absolute;
         display: block;
         list-style: none;
+        left: 7px;
+        top: 30px;
         background-color: rgb(105, 105, 83);
         transition: all 0.5s ease-out;
         width: 50%;
@@ -107,6 +75,8 @@ nav a:hover{
         display: block;
         position: absolute;
         font-size: 20px;
+        margin-top: 10px;
+        left: 25px;
         
     }
 }

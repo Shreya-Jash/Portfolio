@@ -1,3 +1,4 @@
+
 .about-h1{
     padding-left: 50px;
 }
@@ -51,4 +52,23 @@ li{
 }
 a{
     color: rgba(255, 255, 255, 0.496);
+}
+
+
+@media screen and (max-width : 780px) {
+    .about-h1{
+        padding-left: 20px;
+    }
+    .about-para{
+        padding-left: 30px;
+    }
+    .educations{
+        padding-left: 20px;
+    }
+    .skill{
+        padding-left: 20px;
+    }
+    .skill2{
+        padding-left: 30px;
+    }
 }
