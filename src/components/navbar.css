@@ -31,9 +31,6 @@ nav a{
     list-style: none;
     margin: 0;
 }
-.resume{
-    float: left;
-}
 .active{
     color: rgb(199, 190, 12);
 }
