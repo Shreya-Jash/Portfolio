@@ -13,7 +13,6 @@ import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
-import Resume from "./pages/Resume";
 
 export default function App(){
     return(
@@ -30,9 +29,6 @@ export default function App(){
                 
                 <Routes>
                     <Route path='/Contact' element={<Contact />} />
-                </Routes>
-                <Routes>
-                    <Route path='/Resume' element={<Resume />} />
                 </Routes>
                 <Footer />
             </Router>
