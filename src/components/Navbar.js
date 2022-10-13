@@ -26,7 +26,7 @@ export default function NavBar(){
             <NavLink to="/Contact" >
               <li>Contact</li>
             </NavLink>
-              <a href="https://drive.google.com/file/d/12xCYH_MWZbTSKfmtBkSqsPykLZJzdiW-/view?usp=sharing"><li>Resume</li></a>
+              <a href="https://drive.google.com/file/d/15BVk47KC6zGdnob_FNkNn7ZCigf4pObS/view?usp=sharing"><li>Resume</li></a>
           </ul>  
           
         </nav>
