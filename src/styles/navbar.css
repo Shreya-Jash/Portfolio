@@ -60,7 +60,7 @@ nav a:hover{
         width: 50%;
     }
     nav a{
-        float: left;
+        float: none;
         color:white;
         text-align: center;
         padding: 14px 16px;
