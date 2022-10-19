@@ -56,7 +56,7 @@ export default function About(){
             <h2>My Skills-</h2>
             <section className="skill2">
             <h3>Languages-</h3>
-                <div>
+                <div className="language">
                     <img src={c} alt="c" className="language-icon"/>
                     <img src={cpp} alt="cpp" className="language-icon"/>
                     <img src={python} alt="python" className="language-icon"/>
@@ -66,9 +66,9 @@ export default function About(){
                 <div className="graphics-icon" >
                     <img src={canva} alt="canva" className="graphics-icon"/>
                     
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"  height="40px" alt="figma"/>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" className="graphics-icon" height="40px" alt="figma"/>
           
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg" height="40px" alt="photoshop"/>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg" className="graphics-icon" height="40px" alt="photoshop"/>
           
                 </div>
                 <h3>Frontend Development-</h3>

@@ -1,26 +1,35 @@
-footer{
-    padding-top: 200px;
-}
 .footer-div{
+    margin: 6px 4px 0px 2px;
     display: flex;
     justify-content: space-between;
-    max-width: 100%;
-    height: auto;
-    border-radius: 25px 25px 0px 0px;
-    font-style: bold;
-    font-family: "Poppins", sans-serif;
-    border: 1px solid rgb(199, 190, 12);
-    color: rgba(255, 255, 255, 0.496);
+    width: 100%;
+    height: 60px;
+    background-color:rgba(199, 190, 12, 0.203) ;
+    border-top: 2px solid rgb(100, 100, 16);
+    color: rgb(255, 255, 255);
     font-style: italic;
 }
 .foot-text{
     padding-left: 20px;
+    font-style: bold;
+    font-family: "Poppins", sans-serif;
 }
 .links{
-    padding-right: 20px;
+    padding-right: 10px;
     display: flex;
 }
 .a2{
     text-decoration: none;
     margin-right: 10px;
+}
+
+@media screen and (max-width:400px)  {
+    .foot-text
+    {
+        font-size: 8px;
+        padding-left: 10px;
+    }
+    .footer-div{
+        padding-top:10px ;
+    }
 }

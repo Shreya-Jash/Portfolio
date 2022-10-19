@@ -2,10 +2,9 @@ import React from "react";
 
 export default function Footer(){
   return(
-    <footer>
-      <div className="footer-div">
+      <footer className="footer-div absolute inset-x-0 bottom-0 h-16 right-px">
           <p className="foot-text">Designed and developed by Shreya Jash with ❤️</p>
-          <p className="links">
+          <div className="links">
             <a href="https://github.com/Shreya-Jash" className="a2" target="_blank" rel="noreferrer" >
               <i class="devicon-github-original"></i>
             </a>
@@ -15,9 +14,9 @@ export default function Footer(){
             <a href="https://twitter.com/jash_shre" className="a2" target="_blank" rel="noreferrer" >
               <i class="devicon-twitter-original"></i>
             </a>
-          </p>
+          </div>
           
-      </div>
-    </footer>
+      </footer>
+
   )
 }
