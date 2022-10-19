@@ -9,13 +9,14 @@ export default function Home(){
         <motion.main 
             className="main-text" 
             initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        exit={{ opacity: 0 }}
-        transition={{ duration: 0.2 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 0.2 }}
         >
             <div className="main--text">
                 <h2>Hi, I'm Shreya Jash<span className="wave">👋</span></h2>
-                <img src={myPic2} className="myPicmobile" alt="myPicture"/>
+                <section><img src={myPic2} className="myPicmobile" alt="myPicture"/></section>
+                
                 <h1 className="main-h1">Designer, Frontend Developer.</h1>
                 <p className="main-para">A very enthusiatic person who loves creating new and variety of designs.
                     <br />Graphics Designer at IEEE Student branch- UEM Kolkata.

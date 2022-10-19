@@ -1,6 +1,4 @@
-body{
-    color: white;
-}
+
 .contact-all{
     max-width: 100%;
     padding-top: 100px;
@@ -89,9 +87,6 @@ body{
     }
     .contact-det{
         padding-left: 20px;
-    }
-    .form-con{
-       
     }
     .contact-det2{
         column-gap: 3px;

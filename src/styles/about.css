@@ -29,11 +29,15 @@
     padding-left: 60px;
     color:rgba(255, 255, 255, 0.496) ;
 }
+.language{
+    display: flex;
+}
 .language-icon{
     height: 40px;
 }
 .graphics-icon{
     height: 40px;
+    display: flex;
 }
 .frontend-icons{
     display: flex;
