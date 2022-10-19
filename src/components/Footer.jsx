@@ -2,7 +2,8 @@ import React from "react";
 
 export default function Footer(){
   return(
-      <footer className="footer-div absolute inset-x-0 bottom-0 h-16 right-px">
+    <footer className="footerdd pt-10">
+        <footer className="footer-div">
           <p className="foot-text">Designed and developed by Shreya Jash with ❤️</p>
           <div className="links">
             <a href="https://github.com/Shreya-Jash" className="a2" target="_blank" rel="noreferrer" >
@@ -17,6 +18,8 @@ export default function Footer(){
           </div>
           
       </footer>
+    </footer>
+      
 
   )
 }
