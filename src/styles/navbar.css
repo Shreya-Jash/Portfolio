@@ -41,7 +41,7 @@ nav a:hover{
 }
 
 .mobile-responsive{
-    display: none;
+    display: none; /*hides button*/
 }
 
 @media screen and (max-width: 780px) {
@@ -49,15 +49,26 @@ nav a:hover{
         display: none;
     }
 
+    .mobile-responsive{
+        display: block;
+        position: absolute;
+        font-size: 20px;
+        margin-top: 10px;
+        left: 25px;
+        overflow: hidden;
+    }
+
     .nav-links-mobile{
         position: absolute;
         display: block;
         list-style: none;
-        left: 7px;
+        /* left: 7px; */
         top: 30px;
         background-color: rgb(105, 105, 83);
         transition: all 0.5s ease-out;
-        width: 50%;
+        width:84.5%;
+        z-index: 10;
+        margin-right: 0;
     }
     nav a{
         float: none;
@@ -68,12 +79,5 @@ nav a:hover{
         text-decoration: none;
     }
 
-    .mobile-responsive{
-        display: block;
-        position: absolute;
-        font-size: 20px;
-        margin-top: 10px;
-        left: 25px;
-        
-    }
+    
 }

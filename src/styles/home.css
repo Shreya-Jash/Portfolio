@@ -52,11 +52,17 @@
   
 }
 
+.mypicmobile{
+    display: none;
+}
+
 @media screen and (max-width: 780px) {
     .main-text{
         padding-left: 20px;
         overflow-x: hidden;
     }
+
+    
     .main--text{
         padding-top: 40px;
     }
@@ -79,5 +85,14 @@
     
     .myPic-sec{
         display: none;
+    }
+    .mypicmobile{
+        display:flex;
+        align-self: center;
+        justify-content: center;
+        max-width: 100%;
+        height: 160px;
+        border-radius: 20px;
+        /* overflow: hidden; */
     }
 }
