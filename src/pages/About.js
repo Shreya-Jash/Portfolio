@@ -19,7 +19,7 @@ export default function About(){
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            transition={{ duration: 0.2 }}
+            transition={{ duration: 0.3 }}
         >
                 <h1 className="about-h1">A liitle about me-</h1>
                 <p className="about-para">

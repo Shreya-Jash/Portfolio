@@ -11,15 +11,14 @@ export default function Home(){
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            transition={{ duration: 0.2 }}
+            transition={{ duration: 0.3 }}
         >
             <div className="main--text">
-                <h2>Hi, I'm Shreya Jash<span className="wave">👋</span></h2>
-                <section><img src={myPic2} className="myPicmobile" alt="myPicture"/></section>
+                <h1>Hi, I'm <span class="myname text-amber-300">Shreya Jash</span><span className="wave">👋</span></h1>
+                <section className="mypicmobile"><img src={myPic2} className="myPicmobile" alt="myPicture"/></section>
                 
-                <h1 className="main-h1">Designer, Frontend Developer.</h1>
+                <h1 className="main-h1">Designer and a Frontend Developer.</h1>
                 <p className="main-para">A very enthusiatic person who loves creating new and variety of designs.
-                    <br />Graphics Designer at IEEE Student branch- UEM Kolkata.
                 </p>
             </div>
             <section className="myPic-sec">
