@@ -1,10 +1,5 @@
 import React from "react";
 
-import {motion} from 'framer-motion'
-
-          
-
-
 import c from "../images/icons_language/c.png"
 import cpp from "../images/icons_language/cpp.png"
 import python from "../images/icons_language/python.png"
@@ -15,12 +10,7 @@ import canva from "../images/icons_graphics/canva.png"
 
 export default function About(){
     return(
-        <motion.div 
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            transition={{ duration: 0.3 }}
-        >
+        <div className="about">
                 <h1 className="about-h1">A liitle about me-</h1>
                 <p className="about-para">
                     <i className="quote">"Never lose youself into the world of dreams, Start working on it practically today..."</i>
@@ -106,6 +96,6 @@ export default function About(){
           
           
 
-        </motion.div>
+        </div>
     )
 }

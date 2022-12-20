@@ -22,7 +22,10 @@ export default function NavBar(){
             <NavLink to="/About" >
               <li>About</li>
             </NavLink>
-            <a href="https://github.com/Shreya-Jash?tab=repositories" ><li>Projects</li></a>
+            <NavLink to="/Project" >
+              <li>Projects</li>
+            </NavLink>
+            {/* <a href="https://github.com/Shreya-Jash?tab=repositories" ><li>Projects</li></a> */}
             <NavLink to="/Contact" >
               <li>Contact</li>
             </NavLink>

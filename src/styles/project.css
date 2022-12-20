@@ -1,0 +1,51 @@
+.projects{
+    height: 900px;
+}
+
+
+.project-section{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,300px);
+    grid-gap: 10px;
+}
+
+.Cards{
+    background: linear-gradient(rgb(191, 202, 114), rgb(121, 108, 4));
+    color: black; 
+    width: 250px;
+    height:300px;
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 20px;
+    box-shadow: 5px 10px rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.cards a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 18px;
+}
+.sourcelink{
+    padding-right: 40px;
+}
+
+.projects h1{
+    margin: 20px;
+    font-style: italic;
+    font-size: 20px;
+}
+.projects h2{
+    margin: 40px;
+    font-size: 20px;
+}
