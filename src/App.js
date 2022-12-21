@@ -21,25 +21,20 @@ export default function App(){
         // <Router>
         <div className="app">
             <NavBar /> 
-            <Element name="home">
-                <Home />
-            </Element>
-            <Element name="about">
-                <About />
-            </Element>
-            <Element name="project">
-                <Project />
-            </Element>
-            <Element name="contact">
-                <Contact />
-            </Element>
-            {/* <Routes>
-                <Route exact path='/' element={<Home />} />
-                <Route path="/home" element={<Home />} />
-                <Route path='/About' element={<About />} />
-                <Route path="/Project" element={<Project />} />
-                <Route path='/Contact' element={<Contact />} />
-            </Routes>  */}
+            <div className="appContainer">
+                <Element name="home">
+                    <Home />
+                </Element>
+                <Element name="about">
+                    <About />
+                </Element>
+                <Element name="project">
+                    <Project />
+                </Element>
+                <Element name="contact">
+                    <Contact />
+                </Element>
+            </div>
             <ScrollUp />
             <Footer />
         </div>

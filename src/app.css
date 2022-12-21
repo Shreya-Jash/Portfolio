@@ -1,4 +1,8 @@
 .app{
-    margin-left: 10px;
-    margin-right: 10px;
+    overflow: hidden;
+}
+
+.appContainer{
+    margin-left: 40px;
+    margin-right: 40px;
 }
