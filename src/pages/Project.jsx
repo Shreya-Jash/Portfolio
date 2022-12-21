@@ -5,7 +5,7 @@ import '../styles/project.css'
 
 function Project() {
   return (
-    <div className="projects">
+    <div className="projects" id='project'>
       <h1>Some of my works -</h1>
         <section className='project-section'>
           {data.map((item,index) => 

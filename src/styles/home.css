@@ -1,5 +1,4 @@
-.main-text{
-    
+.home{
     padding-left: 50px;
     color: white;
     display: flex;
@@ -8,6 +7,17 @@
 }
 .main--text{
     padding-top: 180px;
+}
+.main--text a{
+    text-decoration: none;
+    color: white;
+}
+
+.main--text button{
+    background: -webkit-linear-gradient(rgb(191, 202, 114), rgb(121, 108, 4));
+    width: 140px;
+    height: 40px;
+    margin-top: 10px;
 }
 .main-h1{
     font-size: 60px;

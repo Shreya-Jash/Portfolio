@@ -1,6 +1,8 @@
 import React from "react";
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
+import { Link } from "react-scroll";
+// import { HashLink } from "react-router-hash-link";
 
 export default function NavBar(){
   const [isMobile, setIsMobile]= useState(false);
@@ -16,20 +18,19 @@ export default function NavBar(){
             className={isMobile ? "nav-links-mobile" : "nav-links"}
             onClick={() => setIsMobile(false)}
           >
-            <NavLink to="/" >
+            <Link to="home">
               <li>Home</li>
-            </NavLink>
-            <NavLink to="/About" >
+            </Link>
+            <Link to="about" >
               <li>About</li>
-            </NavLink>
-            <NavLink to="/Project" >
+            </Link>
+            <Link to="project">
               <li>Projects</li>
-            </NavLink>
+            </Link>
             {/* <a href="https://github.com/Shreya-Jash?tab=repositories" ><li>Projects</li></a> */}
-            <NavLink to="/Contact" >
+            <Link to="contact">
               <li>Contact</li>
-            </NavLink>
-              <a href="https://drive.google.com/file/d/15BVk47KC6zGdnob_FNkNn7ZCigf4pObS/view?usp=sharing"><li>Resume</li></a>
+            </Link>
           </ul>  
           
         </nav>

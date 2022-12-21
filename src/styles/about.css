@@ -1,7 +1,9 @@
 .about{
     height: 900px;
+    overflow: hidden;
 }
 .about-h1{
+    padding-top: 20px;
     padding-left: 50px;
 }
 .about-para{
@@ -25,14 +27,18 @@
     
 }
 .skill{
-    padding-left: 50px;
+    padding-left: 40px;
 }
 .skill2{
-    padding-left: 60px;
+    padding-left: 40px;
+    width: 350px;
     color:rgba(255, 255, 255, 0.496) ;
+    
 }
 .language{
+    margin-bottom: 8px;
     display: flex;
+    justify-content: space-around;
 }
 .language-icon{
     height: 40px;
@@ -40,15 +46,20 @@
 .graphics-icon{
     height: 40px;
     display: flex;
+    justify-content: space-around;
+    margin-bottom: 8px;
 }
 .frontend-icons{
     display: flex;
+    justify-content: space-around;
+    margin-bottom: 8px;
 }
 .frontend-icon{
     height: 40PX;
 }
 .other-icon{
     display: flex;
+    justify-content: space-around;
 }
 .othericon{
     height: 40px;

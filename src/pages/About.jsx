@@ -10,7 +10,7 @@ import canva from "../images/icons_graphics/canva.png"
 
 export default function About(){
     return(
-        <div className="about">
+        <div className="about" id="about">
                 <h1 className="about-h1">A liitle about me-</h1>
                 <p className="about-para">
                     <i className="quote">"Never lose youself into the world of dreams, Start working on it practically today..."</i>
@@ -19,7 +19,7 @@ export default function About(){
                     from Satgachia, West Bengal.<br />
                     From very small age I love to draw and paint.<br />
                     Now, I am Graphics Designer and a Frontend Developer as well.<br />
-                    I use HTML,CSS and JavaScript for my Development.I use React JS as a Framework.
+                    I love to explore and learn new technologies.
                 </p>
             <div className="educations" >
                 <h1>Education-</h1>
@@ -42,55 +42,50 @@ export default function About(){
                 
                 
             </div>
+            
             <div className="skill">
-            <h2>My Skills-</h2>
-            <section className="skill2">
-            <h3>Languages-</h3>
-                <div className="language">
-                    <img src={c} alt="c" className="language-icon"/>
-                    <img src={cpp} alt="cpp" className="language-icon"/>
-                    <img src={python} alt="python" className="language-icon"/>
-                    <img src={java} alt="java" className="language-icon"/>
-                </div>
-                <h3>Graphics-</h3>
-                <div className="graphics-icon" >
-                    <img src={canva} alt="canva" className="graphics-icon"/>
-                    
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" className="graphics-icon" height="40px" alt="figma"/>
-          
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg" className="graphics-icon" height="40px" alt="photoshop"/>
-          
-                </div>
-                <h3>Frontend Development-</h3>
-                <div className="frontend-icons">
-                    
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" alt="html" className="frontend-icon"/>
-          
+                <h2>My Skills-</h2>
+                <section className="skill2">
+                    <h3>Languages-</h3>
+                        <div className="language">
+                            <img src={c} alt="c" className="language-icon"/>
+                            <img src={cpp} alt="cpp" className="language-icon"/>
+                            <img src={python} alt="python" className="language-icon"/>
+                            <img src={java} alt="java" className="language-icon"/>
+                        </div>
+                        <h3>Graphics-</h3>
+                        <div className="graphics-icon" >
+                            <img src={canva} alt="canva" className="graphics-icon"/>
                             
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" alt="css" className="frontend-icon"/>
-                    
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" alt="tailwind" className="frontend-icon" />
-          
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="js" className="frontend-icon"/>
-          
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" alt="react"
-                        className="frontend-icon"/>
-          
-                </div>
-                <h3>Others-</h3>
-                <div className="other-icon">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original-wordmark.svg" alt="googlecloud" className="othericon" />
-                    
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original-wordmark.svg" alt="vscode" className="othericon" />
-                    <i class="devicon-github-original"></i>
-          
-        
-          
-          
-          
-                </div>
-            </section>
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" className="graphics-icon" height="40px" alt="figma"/>
                 
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg" className="graphics-icon" height="40px" alt="photoshop"/>
+                
+                        </div>
+                        <h3>Frontend Development-</h3>
+                        <div className="frontend-icons">
+                            
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" alt="html" className="frontend-icon"/>
+                
+                                    
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" alt="css" className="frontend-icon"/>
+                            
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" alt="tailwind" className="frontend-icon" />
+                
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="js" className="frontend-icon"/>
+                
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" alt="react"
+                                className="frontend-icon"/>
+                
+                        </div>
+                        <h3>Others-</h3>
+                        <div className="other-icon">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original-wordmark.svg" alt="googlecloud" className="othericon" />
+                            
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original-wordmark.svg" alt="vscode" className="othericon" />
+                            <i class="devicon-github-original"></i>
+                        </div>
+                </section>
             </div>
                 
           
