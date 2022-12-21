@@ -1,4 +1,5 @@
 import React from "react";
+import ScrollUp from "../components/ScrollUp";
 
 import c from "../images/icons_language/c.png"
 import cpp from "../images/icons_language/cpp.png"
@@ -87,9 +88,6 @@ export default function About(){
                         </div>
                 </section>
             </div>
-                
-          
-          
 
         </div>
     )

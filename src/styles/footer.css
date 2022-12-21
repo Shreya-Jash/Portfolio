@@ -41,3 +41,15 @@
         padding-top: 10px;
     }
 }
+
+.scrollup{
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    height: 50px;
+}
+
+.scrollup:hover{
+    background-color: rgba(0, 0, 0, 0.475);
+}

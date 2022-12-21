@@ -35,8 +35,6 @@ export default function Contact(){
                 </section>
                 
             </form>
-           
-            
         </div>
     )
 }

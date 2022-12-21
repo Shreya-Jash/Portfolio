@@ -18,17 +18,17 @@ export default function NavBar(){
             className={isMobile ? "nav-links-mobile" : "nav-links"}
             onClick={() => setIsMobile(false)}
           >
-            <Link to="home">
+            <Link to="home" smooth={true}>
               <li>Home</li>
             </Link>
-            <Link to="about" >
+            <Link to="about" smooth={true} >
               <li>About</li>
             </Link>
-            <Link to="project">
+            <Link to="project" smooth={true}>
               <li>Projects</li>
             </Link>
             {/* <a href="https://github.com/Shreya-Jash?tab=repositories" ><li>Projects</li></a> */}
-            <Link to="contact">
+            <Link to="contact" smooth={true}>
               <li>Contact</li>
             </Link>
           </ul>  

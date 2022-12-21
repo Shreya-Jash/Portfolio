@@ -6,6 +6,7 @@ import "./styles/about.css"
 import "./styles/contact.css"
 import "./styles/footer.css"
 import "./styles/navbar.css"
+import "./app.css"
 
 import NavBar from "./components/Navbar";
 import Footer from "./components/Footer";
@@ -13,6 +14,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Project from "./pages/Project";
+import ScrollUp from "./components/ScrollUp";
 
 export default function App(){
     return(
@@ -38,7 +40,8 @@ export default function App(){
                 <Route path="/Project" element={<Project />} />
                 <Route path='/Contact' element={<Contact />} />
             </Routes>  */}
+            <ScrollUp />
             <Footer />
-            </div>
+        </div>
     ) 
 }

@@ -7,7 +7,7 @@ export default function Home(){
     return(
         <div className="home" id="home">
             <div className="main--text">
-                <h1>Hi, I'm <span class="myname text-amber-300">Shreya Jash</span><span className="wave">👋</span></h1>
+                <h1>Hi, I'm <span className="myname text-amber-300">Shreya Jash</span><span className="wave">👋</span></h1>
                 <section className="mypicmobile"><img src={myPic2} className="myPicmobile" alt="myPicture"/></section>
                 
                 <h1 className="main-h1">Designer and a Frontend Developer.</h1>
@@ -20,7 +20,6 @@ export default function Home(){
             <section className="myPic-sec">
                 <img src={myPic} className="myPic" alt="myPicture"/>
             </section>
-            
         </div>
     )
 }
