@@ -1,11 +1,9 @@
 import React from "react";
 import { useState } from "react";
-import { NavLink } from "react-router-dom";
 import { Link } from "react-scroll";
-// import { HashLink } from "react-router-hash-link";
 
 export default function NavBar(){
-  const [isMobile, setIsMobile]= useState(false);
+  const [isMobile, setIsMobile]= useState(false)
     return(
         <nav>
           <button 
@@ -27,12 +25,10 @@ export default function NavBar(){
             <Link to="project" smooth={true}>
               <li>Projects</li>
             </Link>
-            {/* <a href="https://github.com/Shreya-Jash?tab=repositories" ><li>Projects</li></a> */}
             <Link to="contact" smooth={true}>
               <li>Contact</li>
             </Link>
-          </ul>  
-          
+          </ul>     
         </nav>
     )
 }

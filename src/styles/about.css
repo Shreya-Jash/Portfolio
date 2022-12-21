@@ -1,44 +1,55 @@
 .about{
-    height: 900px;
+    height: 700px;
     overflow: hidden;
 }
 .about-h1{
+    color: rgba(221, 225, 10, 0.758);
+    font-size: 40px;
+    font-weight:bold;
     padding-top: 20px;
-    padding-left: 50px;
+    padding-bottom: 15px;
+    text-align: center;
+    font-family: 'Domine', serif;;
 }
 .about-para{
-    padding-left: 60px;
     color: rgba(255, 255, 255, 0.496);
     align-items: center;
 }
 .quote{
     color: rgba(255, 255, 0, 0.338);
 }
-.educations{
-    padding-top: 30px;
-    padding-left: 50px;
-}
-.education{
-    display: flex;
-   padding-bottom: 50px;
-    justify-content: space-around;
-   
 
-    
+.aboutcontainer{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
 }
+.educations{
+    width: 50%;
+}
+
+.education{
+    padding-top: 10px;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.education ul{
+    list-style-type:circle;
+}
+
 .skill{
-    padding-left: 40px;
+    width: 50%;
 }
 .skill2{
     padding-left: 40px;
     width: 350px;
     color:rgba(255, 255, 255, 0.496) ;
-    
 }
 .language{
     margin-bottom: 8px;
     display: flex;
-    justify-content: space-around;
 }
 .language-icon{
     height: 40px;
@@ -46,12 +57,12 @@
 .graphics-icon{
     height: 40px;
     display: flex;
-    justify-content: space-around;
+   
     margin-bottom: 8px;
 }
 .frontend-icons{
     display: flex;
-    justify-content: space-around;
+
     margin-bottom: 8px;
 }
 .frontend-icon{
@@ -59,7 +70,7 @@
 }
 .other-icon{
     display: flex;
-    justify-content: space-around;
+
 }
 .othericon{
     height: 40px;
@@ -73,19 +84,28 @@ a{
 
 
 @media screen and (max-width : 780px) {
-    .about-h1{
-        padding-left: 20px;
+    .about{
+        height: 1100px;
+        overflow: hidden;
     }
     .about-para{
-        padding-left: 30px;
+        padding-left: 10px;
+    }
+    .aboutcontainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-top: 40px;
     }
     .educations{
-        padding-left: 20px;
+        padding-top: 20px;
+        width: 100%;
     }
     .skill{
-        padding-left: 20px;
+        width: 100%;
     }
+
     .skill2{
-        padding-left: 30px;
+        padding-left: 10px;
     }
 }

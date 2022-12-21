@@ -1,19 +1,24 @@
 .contact{
-    max-width: 100%;
+    height: 700px;
     padding-top: 100px;
     display: flex;
     justify-content: space-between;
     overflow: hidden;
 }
-.contact-det{
-    padding-left: 150px;
+.contact-det h1{
+    color: rgba(221, 225, 10, 0.758);
+    font-size: 40px;
+    font-weight:bold;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    text-align: center;
+    font-family: 'Domine', serif;;
 }
 .contact-det2{
     height: 80px;
     display: flex;
     justify-content:left;
     column-gap: 60px;
-   
 }
 .contact-ne{
     height: 40px;
@@ -23,9 +28,6 @@
     background-color:#f9f5f526;
     text-indent: 15px;
     color: white;
-}
-.form-con{
-    padding-right: 150px;
 }
 .note{
     text-indent: 5px;
@@ -81,38 +83,43 @@
 @media screen and (max-width:820px) {
     .contact{
         padding-top: 10px;
-        padding-left: 15px;
+        padding-left: 0px;
         display: block;
         overflow-y: hidden;
-        height: 740px;
-        height: 1000px;
     }
     .contact-det{
         padding-left: 20px;
         padding-bottom: 20px;
     }
+    .note{
+        height: 170px;
+        width: 580px;
+    }
 }
 
-@media screen and (max-width:780px) {
+@media screen and (max-width:430px) {
     .contact{
         padding-top: 10px;
-        padding-left: 15px;
+        padding-left: 0px;
         display: block;
         overflow-y: hidden;
         height: 740px;
     }
     .contact-det{
-        padding-left: 20px;
+        padding-left: 0px;
     }
     .contact-det2{
-        column-gap: 3px;
-       
+        /* height: 80px; */
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        padding-bottom: 10px;
     }
     .contact-ne{
-        width: 160px;
+        width: 280px;
     }
     .note{
         height: 170px;
-        width: 330px;
+        width: 280px;
     }
 }
