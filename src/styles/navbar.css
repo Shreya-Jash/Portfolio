@@ -17,10 +17,10 @@ nav{
 }
 
 .nav-links{
-    list-style: none;
     margin: 0;
 }
 nav a{
+    cursor: pointer;
     float: left;
     color:white;
     text-align: center;

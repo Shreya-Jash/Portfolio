@@ -27,26 +27,58 @@
 .educations{
     width: 50%;
 }
+.educations h1{
+    color: rgba(255, 196, 0, 0.716);
+    font-size: 20px;
+    text-shadow: 0.5px 0.5px rgb(203, 201, 180);
+    padding-left: 20px;
+}
 
 .education{
     padding-top: 10px;
-    padding-left: 30px;
+    padding-left: 50px;
     display: flex;
     flex-direction: column;
 }
 
+.education h2{
+    font-size: 16px;
+    color: rgb(204, 183, 117);
+    font-weight: 600;
+}
+
 .education ul{
-    list-style-type:circle;
+    padding-bottom: 15px;
+}
+
+.education li{
+    padding-left: 20px;
+}
+
+.line{
+    width: 2px;
+    height: 300px;
+    background-color: wheat;
 }
 
 .skill{
     width: 50%;
+}
+.skill h2{
+    color: rgba(255, 196, 0, 0.716);
+    font-size: 20px;
+    text-shadow: 0.5px 0.5px rgb(203, 201, 180);
 }
 .skill2{
     padding-left: 40px;
     width: 350px;
     color:rgba(255, 255, 255, 0.496) ;
 }
+.skill h3{
+    color:rgb(168, 156, 116) ;
+    padding-bottom: 10px;
+}
+
 .language{
     margin-bottom: 8px;
     display: flex;
@@ -85,7 +117,7 @@ a{
 
 @media screen and (max-width : 780px) {
     .about{
-        height: 1100px;
+        height: 1150px;
         overflow: hidden;
     }
     .about-para{
@@ -101,11 +133,20 @@ a{
         padding-top: 20px;
         width: 100%;
     }
+    .educations h1{
+        padding-left: 0px;
+    }
+    .education{
+        padding-left: 20px;
+    }
     .skill{
         width: 100%;
     }
 
     .skill2{
         padding-left: 10px;
+    }
+    .line{
+        display: none;
     }
 }

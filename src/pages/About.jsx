@@ -67,24 +67,18 @@ export default function About(){
                             </div>
                     </section>
                 </div>
+                <div className="line"></div>
                 <div className="educations" >
                     <h1>Education-</h1>
                     <div className="education">
-                            <div>
-                                <h2>College-</h2>
-                                <ul role="list">
-                                    <li><a href="https://uem.edu.in/uem-kolkata/"  target="_blank" rel="noreferrer">University Of Engineering And Management, Kolkata. (2020-2024)</a><span></span></li>
-                                </ul>
-                            </div> 
-                            <div>
-                                <h2>Schooling-</h2>
                                 <ul>
-                                    <li><a href="http://www.claretsahanagar.com/" target="_blank" rel="noreferrer">Claret Scool,Sahanagar. (2006-2018)</a></li>
-                                    <li><a href="https://web.memaricrystalmodelschool.edu.in/"  target="_blank" rel="noreferrer">Memari Crystal Model School. (2018-2020)</a></li>
+                                    <h2> 2020 - Present </h2>
+                                    <li><span>B.Tech in CSE - </span><a href="https://uem.edu.in/uem-kolkata/"  target="_blank" rel="noreferrer">University Of Engineering And Management, Kolkata.</a></li>
+                                    <h2> 2018 - 2020 </h2>
+                                    <li><span>Class XII - </span><a href="https://web.memaricrystalmodelschool.edu.in/"  target="_blank" rel="noreferrer">Memari Crystal Model School.</a></li>
+                                    <h2> 2006 - 2018 </h2>
+                                    <li><span>Class X - </span><a href="http://www.claretsahanagar.com/" target="_blank" rel="noreferrer">Claret Scool,Sahanagar.</a></li>
                                 </ul>
-                            </div>
-                            
-                             
                     </div>
                 </div>
                 
