@@ -20,15 +20,14 @@
 }
 
 .Cards{
-    background: linear-gradient(rgb(191, 202, 114), rgb(121, 108, 4));
+    background: linear-gradient(rgba(255, 255, 252, 0.797), rgb(153, 155, 37));
     color: black; 
     width: 250px;
     height:300px;
     margin: 20px;
     padding: 10px;
-    border: 2px solid white;
     border-radius: 20px;
-    box-shadow: 5px 10px rgb(255, 255, 255);
+    box-shadow: 10px 10px 10px rgba(70, 67, 67, 0.742);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -61,8 +60,8 @@
 }
 
 
-@media screen and (max-width : 780px){
+@media screen and (max-width : 1000px){
     .projects{
-        height: auto;
+        height: fit-content;
     }
 }

@@ -1,8 +1,7 @@
 .footer-div{
     margin-top: 200px;
     margin: 6px 4px 0px 2px;
-    display: flex;
-    justify-content: space-between;
+    text-align: center;
     width: 100%;
     height: 60px;
     background-color:rgba(199, 190, 12, 0.203) ;

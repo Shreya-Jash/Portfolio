@@ -1,6 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router,Routes,Route} from "react-router-dom";
-import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+import {  Element } from 'react-scroll'
 
 import "./styles/about.css"
 import "./styles/contact.css"

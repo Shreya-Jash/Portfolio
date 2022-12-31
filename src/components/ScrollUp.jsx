@@ -2,7 +2,6 @@ import React from 'react'
 import scroll from "../images/scrollup.png"
 
 export default function () {
-
     function handleScroll()
     {
         window.scrollTo(0,0);

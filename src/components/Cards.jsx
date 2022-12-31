@@ -5,6 +5,7 @@ export default function Cards(props) {
     <div className='cardsContainer'>
         <div className='Cards'>
             <div className="title">{props.title}</div>
+            <img src={props.img}/>
             <div className="tech">{props.tech_used}</div>
             <div className='projectLinks'>
               <a href={props.source_code} target="_blank" rel='noreferrer' className="sourcelink">Source code</a>
